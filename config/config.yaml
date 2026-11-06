@@ -1,0 +1,45 @@
+# Robot Planter config (concept, untested)
+
+loop_seconds: 600            # sense + decide every ten minutes
+
+geofence:                    # square, metres, origin is the dock
+  min_x: -1.5
+  max_x: 1.5
+  min_y: 0.0
+  max_y: 3.0
+
+quiet_hours:                 # when a wander is allowed
+  start: "23:30"
+  end: "05:00"
+
+thresholds:
+  low_light_lux: 2000        # below this at midday, look for sun
+  midday: ["11:00", "15:00"]
+  battery_home_pct: 30
+  battery_full_pct: 95
+  moisture_rain_jump: 0.15   # fraction change between readings = rain, stay put
+  obstacle_stop_m: 0.25
+
+drive:
+  wheel_diameter_m: 0.065
+  track_width_m: 0.16
+  encoder_ticks_per_rev: 48
+  cruise_speed: 0.25         # 0..1 of motor range, walking-cat pace
+  wander_max_m: 1.0
+
+dock:
+  beacon_hz: 2.0
+  approach_speed: 0.15
+  seek_timeout_s: 120
+
+pins:
+  encoder_left: 17
+  encoder_right: 27
+  sonar_trig: 23
+  sonar_echo: 24
+i2c:
+  motor_hat: 0x10
+  adc: 0x48
+  light: 0x23
+
+log_path: log.jsonl

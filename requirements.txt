@@ -1,0 +1,5 @@
+gpiozero>=2.0
+smbus2>=0.4
+adafruit-circuitpython-ads1x15>=2.2
+adafruit-blinka>=8.0
+pyyaml>=6.0
