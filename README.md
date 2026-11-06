@@ -1,4 +1,4 @@
-> **Concept.** Planned build, code untested. Case study: https://vyhouski.com/vibefolio/robot-planter
+> **Concept.** Planned build, code untested. Case study: https://vyhouski.com/projects/robot-planter
 
 # Robot Planter
 
