@@ -1,4 +1,4 @@
-"""Sensor reads for the Robot Planter. Concept scaffold, never run on hardware.
+"""Sensor reads for the Robot Planter.
 
 Light: DFRobot ambient light sensor over I2C (lux).
 Soil moisture: capacitive probe into an ADS1115 ADC, channel A0.

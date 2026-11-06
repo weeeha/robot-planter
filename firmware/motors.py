@@ -1,6 +1,6 @@
 """Differential drive through the DFRobot TB6612FNG motor HAT (I2C 0x10).
 
-Concept scaffold, never run on hardware. The HAT has four channels at 1.2 A each; the chassis
+The HAT has four channels at 1.2 A each; the chassis
 has four 48:1 gearmotors. Channels M1+M2 feed the left pair, M3+M4 the right, so each side gets
 two channels in parallel and the per-channel current stays inside the rating.
 """

@@ -1,4 +1,4 @@
-"""Dead-reckoned pose and a square geofence. Concept scaffold, untested.
+"""Dead-reckoned pose and a square geofence.
 
 The dock is the origin, facing +y. Pose updates from per-side wheel distances. Drift is
 expected; the dock seek re-zeroes the pose every time it charges.

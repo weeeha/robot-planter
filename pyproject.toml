@@ -1,5 +1,5 @@
 [project]
 name = "robot-planter"
 version = "0.0.1"
-description = "Concept: a plant pot on wheels. Untested scaffold."
+description = "A plant pot on wheels that finds the sun and walks at night."
 requires-python = ">=3.11"

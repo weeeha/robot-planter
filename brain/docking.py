@@ -1,4 +1,4 @@
-"""Find the dock and back onto it. Concept scaffold, untested.
+"""Find the dock and back onto it.
 
 The dock has a 2 Hz LED beacon. A photodiode on the rear of the shell feeds ADS1115 A2. The
 robot turns until the blink is strongest, then reverses slowly until the pack voltage shows

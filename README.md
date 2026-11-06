@@ -1,5 +1,3 @@
-> **Concept.** Planned build, code untested. Case study: https://vyhouski.com/projects/robot-planter
-
 # Robot Planter
 
 A plant pot on wheels. It lives outside in one patch of the yard, sits still most of the day like
@@ -39,4 +37,4 @@ python main.py --config config/config.yaml
 
 ## Status
 
-Scaffold only. Nothing in this repo has run on hardware. The build plan is in the case study.
+Planned build; the code has not run on hardware yet. Plan and visuals: https://vyhouski.com/projects/robot-planter

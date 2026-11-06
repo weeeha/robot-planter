@@ -1,4 +1,4 @@
-# Parts (concept)
+# Parts
 
 Prices are CAD before tax and shipping, pulled 2026-11-06. "Fetched" means the vendor page was
 read; "snippet" means a search result only, to re-check before ordering.

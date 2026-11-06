@@ -1,4 +1,4 @@
-# Robot Planter config (concept, untested)
+# Robot Planter config
 
 loop_seconds: 600            # sense + decide every ten minutes
 

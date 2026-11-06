@@ -1,4 +1,4 @@
-# Wiring (concept, not yet built)
+# Wiring
 
 Power: 3S LiPo (11.1 V nominal) to the motor HAT's VM. A 5 V 3 A buck (not in the parts list
 yet) feeds the Pi 5. Sensors run from the Pi's 3.3 V rail except the HC-SR04, which takes 5 V

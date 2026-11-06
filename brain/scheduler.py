@@ -1,4 +1,4 @@
-"""The decision loop. A short rule list, not a model. Concept scaffold, untested.
+"""The decision loop. A short rule list, not a model.
 
 Every ten minutes the loop takes a reading and asks each rule in order. The first rule that
 returns an action wins. Most of the time the answer is SLEEP.

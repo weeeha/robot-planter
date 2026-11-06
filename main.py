@@ -1,4 +1,4 @@
-"""Robot Planter main loop. Concept scaffold, never run on hardware.
+"""Robot Planter main loop.
 
     python main.py --config config/config.yaml [--once]
 """
