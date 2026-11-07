@@ -12,7 +12,7 @@ and needs a divider on echo.
 | HC-SR04 | trig GPIO 23, echo GPIO 24 via 1k/2k | front of the shell, under the pot lip |
 | ADS1115 | I2C `0x48`, 3.3 V | A0 moisture, A1 pack voltage (1:4 divider), A2 beacon photodiode |
 | Capacitive moisture v2 | ADS A0 | probe in the pot soil through the cradle |
-| DFRobot ambient light | I2C `0x23` | top of the mast, under the rain hood |
+| DFRobot ambient light | I2C `0x23` | under the clear dome in the shell rim, behind the pot |
 | Beacon photodiode | ADS A2 | rear of shell, points at the dock LED |
 | Dock | spring contacts to the pack's charge lead; LED on 2 Hz blink | balance charger on the house side |
 

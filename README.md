@@ -23,7 +23,7 @@ never quite where you left it.
 | Wheel encoders (2) | GPIO 17, 27 | one per side, rising edge |
 | HC-SR04 ultrasonic | trig GPIO 23, echo GPIO 24 | echo through a 1k/2k divider to 3.3 V |
 | Capacitive soil moisture | ADS1115 A0, I2C `0x48` | analog, 3.3 V supply |
-| DFRobot ambient light | I2C `0x23` | lux, mounted on the mast |
+| DFRobot ambient light | I2C `0x23` | lux, under the clear dome behind the pot |
 | Pack voltage | ADS1115 A1 | 3S LiPo through a 1:4 divider |
 | Dock beacon LED | photodiode on ADS1115 A2 | 2 Hz blink, seen from the rear of the shell |
 | Dock contacts | pack charge port | balance charger behind the ramp |
